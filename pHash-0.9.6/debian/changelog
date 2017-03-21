@@ -1,0 +1,71 @@
+libphash (0.9.6-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Community Upload <noreply@example.com>  Wed, 22 Mar 2017 00:24:10 +0300
+
+libphash (0.9.4-1.2) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix compatibility with libav 0.7, patch by Andreas Moog 
+    (Closes: #638243)
+
+ -- Moritz Muehlenhoff <jmm@debian.org>  Sat, 01 Oct 2011 12:55:28 +0200
+
+libphash (0.9.4-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Don't ship .la file (Closes: #620933).
+  * Strengthen versioned dep as debhelper overrides are used.
+
+ -- Luk Claes <luk@debian.org>  Sun, 05 Jun 2011 18:34:03 +0200
+
+libphash (0.9.4-1) unstable; urgency=low
+
+  [ Christophe Monniez ]
+  * Merging upstream version 0.9.4.
+  * Fixing debian watch file.
+  * Bumping standards-version to 3.9.1.
+  * Adding build depends on libsnfile1-dev.
+  * Adding build depends on libsamplerate0-dev.
+  * Adding build depends on libmpg123-dev.
+  * Simplifying debian/rules.
+  * Removing obsolete patch.
+  * Adding dependency on cimg-dev for dev package.
+    (Closes: #590614, #607724).
+  * Fixing CXXFLAGS to build on armel. Thanks to Peter Green
+    (Closes: #613961).
+
+ -- Michael Prokop <mika@debian.org>  Mon, 21 Feb 2011 22:49:50 +0100
+
+libphash (0.9.0-2) unstable; urgency=low
+
+  * Added patch 01_build_on_kfreebsd.dpatch: testing libc variant rather than
+    kernel in order to build for kfreebsd. Thanks to Petr Salinger and Cyril
+    Brulebois. (Closes: #576895)
+
+ -- Tiago Bortoletto Vaz <tiago@debian.org>  Sat, 15 May 2010 03:07:53 +0000
+
+libphash (0.9.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Tiago Bortoletto Vaz <tiago@debian.org>  Sun, 28 Mar 2010 15:24:10 -0300
+
+libphash (0.8.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Tiago Bortoletto Vaz <tiago@debian.org>  Mon, 01 Feb 2010 00:53:08 +0000
+
+libphash (0.7.2-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Tiago Bortoletto Vaz <tiago@debian.org>  Fri, 25 Dec 2009 15:48:35 -0200
+
+libphash (0.7-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #519290)
+
+ -- Tiago Bortoletto Vaz <tiago@debian.org>  Mon, 14 Dec 2009 00:05:34 -0200

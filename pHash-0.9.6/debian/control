@@ -1,0 +1,50 @@
+Source: libphash
+Section: libs
+Priority: optional
+Maintainer: Community <noreply@example.com>
+Build-Depends: debhelper (>= 8.0.0), libavformat-dev, libmpg123-dev, libsamplerate-dev, libsndfile-dev, cimg-dev, libavcodec-dev, ffmpeg, libswscale-dev
+Standards-Version: 3.9.1
+Homepage: http://phash.org
+Vcs-Browser: http://git.debian.org/?p=forensics/libphash.git
+Vcs-Git: git://git.debian.org/forensics/libphash.git
+
+Package: libphash0
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Perceptual hashing library
+ Unlike cryptographic hash functions which rely on an avalanche effect of
+ changes in input leading to drastic changes in the output, perceptual
+ hashes are "close" to one another if the inputs are visually or
+ auditorily similar.
+ .
+ Perceptual hashes have applications in searching, identifying potential
+ copyright infringement, locating duplicates etc. - since a fingerprint
+ of a file is usually less than 1% of the original media file's size,
+ the fingerprint can be stored in a database and used for semantic
+ searching, such as finding all images that look like another.
+ .
+ pHash implements several perceptual hashing algorithms and provides a
+ C++ API to use those functions in your own programs.
+
+Package: libphash0-dev
+Architecture: any
+Section: libdevel
+Depends: ${misc:Depends}, ${shlibs:Depends}, cimg-dev, libphash0 (= ${binary:Version})
+Provides: libphash-dev
+Description: Perceptual hashing library development package
+ Unlike cryptographic hash functions which rely on an avalanche effect of
+ changes in input leading to drastic changes in the output, perceptual
+ hashes are "close" to one another if the inputs are visually or
+ auditorily similar.
+ .
+ Perceptual hashes have applications in searching, identifying potential
+ copyright infringement, locating duplicates etc. - since a fingerprint
+ of a file is usually less than 1% of the original media file's size,
+ the fingerprint can be stored in a database and used for semantic
+ searching, such as finding all images that look like another.
+ .
+ pHash implements several perceptual hashing algorithms and provides a
+ C++ API to use those functions in your own programs.
+ .
+ This package provides the files necessary to compile programs which
+ use pHash library.

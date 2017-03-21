@@ -1,0 +1,21 @@
+Format-Specification:
+       http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=112
+Name: pHash
+Maintainer: Evan Klinger <eklinger@phash.org>,
+            David Starkweather <dstarkweather@phash.org>
+Source: http://phash.org/releases/
+
+Files: *
+Copyright: 2009, Aetilius, Inc
+License: GPL-3
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 3 dated June, 2007.
+ On Debian GNU/Linux systems, the complete text of version 3 of the GNU
+ General Public License can be found in `/usr/share/common-licenses/GPL-3'
+
+Files: debian/*
+Copyright: 2009, Tiago Bortoletto Vaz <tiago@debian.org>
+License: GPL-2+
+ On Debian systems, the complete text of the GNU General Public License
+ can be found in /usr/share/common-licenses/GPL-2 file.
